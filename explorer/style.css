@@ -15,6 +15,22 @@ body {
 body * {
   font-family:'Inter',  sans-serif;
   line-height: 160%;
+
+}
+
+header div {
+  width: 120px;
+  height: 120px;
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  margin: auto;
+  margin-top: 32px;
+  border-radius: 50%;
+  padding: 4px;
+}
+header img {
+  margin: auto;
+  width: 112px;
+  border-radius: 50%;
 }
 main {
   max-width: 580px;
