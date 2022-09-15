@@ -17,26 +17,29 @@ body * {
   line-height: 160%;
 
 }
-
+header{
+  margin-top: 32px;
+}
 header div {
   width: 120px;
-  height: 120px;
   background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
   margin: auto;
-  margin-top: 32px;
   border-radius: 50%;
+  display: flex;
   padding: 4px;
+  transition: transform 0.3s;
+}
+header div:hover{
+  transform: scale(1.1);
 }
 header img {
-  margin: auto;
-  width: 112px;
+  width: 100%;
   border-radius: 50%;
 }
 main {
   max-width: 580px;
   width: 90%;
-  margin: auto;
-  margin-top: 32px;
+  margin: 32px auto;
 }
 
 section {
@@ -66,6 +69,12 @@ section ul {
   flex-wrap: wrap;
   gap: 16px;
 }
+section ul li{
+  transition: transform 0.3s;
+}
+section ul li:hover{
+  transform: scale(1.1);
+}
 .games-list img{
   width: 90px;
   border-radius: 8px;
@@ -73,4 +82,5 @@ section ul {
 .channel-list img{
   width: 70px;
   border-radius: 50%;
+  border: 1px solid #443E54;
 }
